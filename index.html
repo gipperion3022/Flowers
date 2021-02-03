@@ -4,7 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flowers - интернет магазин цветов</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+  <div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      <a href="/">
+      <img src="img/лого.png" alt="flowers" class="header_logo_image">
+      </a>
+       </div>
+    <!-- /.col-md-3 -->
+    <div class="col-md-6">
+      <span class="header_description">
+        Интернет-магазин <br>
+        цветов с доставкой <br>
+        по всей <span class="text-color-red">России</span>
+      </span>
+    </div>
+    <!-- /.col-md-6 -->
+    <div class="col-md-3">
+      <a href="tel: +78006548745" class="header_phone">8 (800) 654-87-45</a>
+      <span class="header_info">Звонок по России бесплатный</span>
+      <a href="#" class="collback">Заказать звонок</a>
+    </div>
+    <!-- /.col-md-3 -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /.conteiner -->      
+    </header>
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero_title">Эксклюзивные цветы и букеты <br>
+        flowers Shop</h1>
+        <p class="hero_discription">первая в россии эксклюзивная доставка цветов <br>
+        для людей, которые ценят <b>уникальность</b></p>
+
+
+        <!-- Контейнер для слайдов -->
+<div class="swiper-container flowers_slider">
+  <!-- блок слайдов -->
+  <div class="swiper-wrapper">
+    <!-- сами слайды -->
+    <div class="swiper-slide"><img src="img/flowers/flower_1.png" alt="#"></div>
+    <div class="swiper-slide"><img src="img/flowers/flower_2.png" alt="#"></div>
+    <div class="swiper-slide"><img src="img/flowers/flower_3.png" alt="#"></div>
+    <div class="swiper-slide"><img src="img/flowers/flower_4.png" alt="#"></div>
+    <div class="swiper-slide"><img src="img/flowers/flower_5.png" alt="#"></div>
+    <div class="swiper-slide"><img src="img/flowers/flower_6.png" alt="#"></div>
+    <div class="swiper-slide"><img src="img/flowers/flower_3.png" alt="#"></div>   
+  </div>
+  
+  <!-- стрелки слайдера -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- конец блока слайдов  -->
+</div>
+<span class="cta">Закажите эксклюзивный букет со скидкой 10%</span>
+<a href="#" class="flower_buy">заказать букет</a>
+
+
+      </div>
+    </section>
+    
+    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
