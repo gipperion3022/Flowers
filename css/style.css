@@ -119,7 +119,7 @@ body {
   letter-spacing: 0.3px;
   text-align: center;
 }
-.review_image{
+.review_image_1{
     height: 220px;
     width: 220px;
     flex-shrink: 0;
@@ -128,17 +128,17 @@ body {
     overflow: hidden; 
     font-size: 20px;
 }
-.review_image:before{
+.review_image_1:before{
     content: '';
-    width: 100%;
+    width: 50%;
     height: 100%;
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(0, 0, 0, 0.4);
     position: absolute;
 }
 .review_image>*{
     position: relative;
 }
-.review_image_1{
+.review_image{
     background: #000 url('../img/flowers/flower_5.png');
 }
 .review_name{
